@@ -49,4 +49,9 @@ public class Bird extends Animal implements Flyable
     {
         species = s;
     }
+
+    public String toString()
+    {
+        return name;
+    }
 }

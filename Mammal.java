@@ -39,4 +39,9 @@ public class Mammal extends Animal
     {
         species = s;
     }
+
+    public String toString()
+    {
+        return name;
+    }
 }

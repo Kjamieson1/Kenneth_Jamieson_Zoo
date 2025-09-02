@@ -39,4 +39,9 @@ public class Fish extends Animal
     {
         species = s;
     }
+
+    public String toString()
+    {
+        return name;
+    }
 }
