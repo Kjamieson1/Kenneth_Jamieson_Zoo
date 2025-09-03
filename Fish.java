@@ -1,4 +1,4 @@
-public class Fish extends Animal
+class Fish extends Animal
 {
     private String name, species;
 

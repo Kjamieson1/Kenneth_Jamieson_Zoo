@@ -22,7 +22,7 @@ public class Main{
     {
        Animal[] an = new Animal[3];
        an[0] = new Bird("Blue Jay", "Bird");
-       an[1] = new Fish("Clown", "Fish");
+       an[1] = new Fish("Clown Fish", "Fish");
        an[2] = new Mammal("Human", "Mammal");
 
        Main showroom = new Main(an);
