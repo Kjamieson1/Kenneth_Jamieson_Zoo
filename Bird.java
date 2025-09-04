@@ -1,4 +1,4 @@
-class Bird extends Animal implements Flyable
+class Bird extends Animal implements Flyable, Walkable
 {
     private String name, species;
 
@@ -21,9 +21,15 @@ class Bird extends Animal implements Flyable
     }
 
     @Override
-    public void fly()
+    public String fly()
     {
-        System.out.println("Flying");
+        return "Flying with wings";
+    }
+
+    @Override
+    public String walk()
+    {
+        return "Walking with stick legs";
     }
 
     //Geting the Name

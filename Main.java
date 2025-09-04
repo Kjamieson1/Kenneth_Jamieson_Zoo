@@ -1,46 +1,36 @@
+
+import java.util.ArrayList;
+
 public class Main{
-
-    private Animal[] an;
-
-    public Main(Animal[] an)
-    {
-        this.an = an;
-    }
-
-    public void displayAnimals()
-    {
-        for(Animal an : an)
-        {
-            if(an instanceof Flyable)
-            {
-                ((Flyable) an).fly();
-            }
-        }
-    }
 
     public static void main(String[] args)
     {
-       Animal[] an = new Animal[3];
-       an[0] = new Bird("Blue Jay", "Bird");
-       an[1] = new Fish("Clown Fish", "Fish");
-       an[2] = new Mammal("Human", "Mammal");
 
-       Main showroom = new Main(an);
+        ArrayList<String> Animals = new ArrayList<String>();
+
+        Fish f = new Fish("Clown", "Fish");
+        Bird b = new Bird("Crow", "Bird");
+        Mammal m = new Mammal("Human", "Mammal");
+
+        Animals.add(f.toString());
+        Animals.add(f.move());
+        Animals.add(f.makeSound());
+        Animals.add("]");
+        Animals.add(b.toString());
+        Animals.add(b.move());
+        Animals.add(b.makeSound());
+        Animals.add(b.fly());
+        Animals.add(b.walk());
+        Animals.add(m.toString());
+        Animals.add(m.move());
+        Animals.add(m.makeSound());
+        Animals.add(m.fly());
+        Animals.add(m.walk());
 
        
-       System.out.println(an[0].toString());
-       System.out.println(an[0].makeSound());
-       System.out.println(an[0].move());
-       showroom.displayAnimals();
-       System.out.println("");
-       System.out.println(an[1].toString());
-       System.out.println(an[1].makeSound());
-       System.out.println(an[1].move());
-       System.out.println("");
-       System.out.println(an[2].toString());
-       System.out.println(an[2].makeSound());
-       System.out.println(an[2].move());
-
+        System.out.println(Animals);
+       
+       
     }
     
 }

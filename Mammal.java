@@ -1,4 +1,4 @@
-class Mammal extends Animal
+class Mammal extends Animal implements Flyable, Walkable
 {
     private String name, species;
 
@@ -18,6 +18,16 @@ class Mammal extends Animal
     String move()
     {
         return "Moving north";
+    }
+
+    public String fly()
+    {
+       return "On a Plane";
+    }
+
+    public String walk()
+    {
+        return "Walking on foot";
     }
 
     public String getName()
