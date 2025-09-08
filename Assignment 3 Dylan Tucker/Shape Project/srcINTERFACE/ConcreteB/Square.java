@@ -6,11 +6,12 @@ import java.awt.geom.*;
 import javax.swing.JFrame;
 
 public class Square extends BASESHAPE 
-    implements Calculable, Describable, Drawable {
+    implements Calculable, Describable, Drawable { //I like interfaces because you can do this
 
     float sideLength;
     Rectangle2D.Double square;
 
+    //Constructor
     public Square() {
         System.out.println("Please enter the name of your Square: ");
         name = handlit.realName();
@@ -39,7 +40,8 @@ public class Square extends BASESHAPE
     }
     
     //Drawable
-    @Override public void draw() {
+    @Override 
+    public void draw() {
         JFrame f = new JFrame();
         f.setSize(canvasWidth, canvasHeight);
         f.setTitle(name);
@@ -47,6 +49,7 @@ public class Square extends BASESHAPE
         f.add(this);
     }
 
+    //Needed for all
     @Override
     protected void paintComponent(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;

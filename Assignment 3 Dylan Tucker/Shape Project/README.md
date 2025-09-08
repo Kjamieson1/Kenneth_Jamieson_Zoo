@@ -1,18 +1,26 @@
-## Getting Started
+-----ASSIGNMENT 3--------
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+LEVEL 1:
 
-## Folder Structure
+- Made shapes for square, rectangle, and circle
+- all have area methods, list attribute methods, and drawing logic
+- Learning to do the drawing was a rough patch
+- Abstract shape class
+- shared attributes inclue name, color, and the change color method
+- abstract methods are getarea, list attributes and draw
+- implemented square, rectangle, and circle
 
-The workspace contains two folders by default, where:
+-For interfaces part,
+- did the same stuff, a lot of it looked oddly similar
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+LEVEL 2:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Already did three shapes
+- Polymorphism used in the form of the changecolor function in the abstract class and how the functions were overriden rather than all unique names. Also, in the interface section I used a "BASE SHAPE" class to set up shared attributes while not being abstract. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+LEVEL 3:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Code in different packages:
+- Abstract, ConcreteA, and ExceptionHandlers for Abstract part
+- ConcreteB, Interface, and ExceptionHandlers for Interface part
+- JavaDoc used

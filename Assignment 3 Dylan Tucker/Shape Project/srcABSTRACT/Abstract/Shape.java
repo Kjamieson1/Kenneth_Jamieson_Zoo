@@ -7,9 +7,9 @@ import javax.swing.JComponent;
 
 public abstract class Shape extends JComponent{
 
+    //Universal variables
     public Color color;
     public String name;
-
     public int canvasWidth = 640;
     public int canvasHeight = 480;
 
