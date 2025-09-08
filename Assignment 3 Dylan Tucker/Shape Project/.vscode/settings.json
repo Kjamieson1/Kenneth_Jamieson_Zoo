@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "srcABSTRACT"
+        "srcABSTRACT",
+        "srcINTERFACE"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

@@ -1,8 +1,10 @@
-import Concrete.*;
+import ConcreteA.Circle;
+import ConcreteA.Rectangle;
+import ConcreteA.Square;
 
 public class Main1 {
     public static void main(String[] args) throws Exception {
-        /* 
+        
         System.out.println();
         Square square = new Square();
         square.listAttributes();
@@ -17,7 +19,7 @@ public class Main1 {
         System.out.println("Now change its color");
         rectangle.changeColor();
         rectangle.draw();
-        */
+        
         Circle circle = new Circle();
         circle.listAttributes();
         circle.draw();
