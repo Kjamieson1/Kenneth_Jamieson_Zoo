@@ -1,10 +1,6 @@
 package Interface;
 
-import ExceptionHandlers.Handlers;
-import java.awt.*;
-import javax.swing.JComponent;
-
-public interface Drawable {
+public interface Drawable {   //dealing with drawing the shape
     public abstract void changeColor();
 
     public abstract void draw();

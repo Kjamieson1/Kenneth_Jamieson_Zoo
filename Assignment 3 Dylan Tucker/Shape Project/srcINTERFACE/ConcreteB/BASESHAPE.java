@@ -31,13 +31,4 @@ public class BASESHAPE extends JComponent {
 
         color = new Color(red, green, blue);
     }
-
-    /* 
-    @Override
-    protected void paintComponent(Graphics g) {
-        Graphics2D g2d = (Graphics2D) g;
-        g2d.setColor(color);
-        g2d.fill(square);
-    }
-        */
 }
